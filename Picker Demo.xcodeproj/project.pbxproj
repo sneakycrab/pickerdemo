@@ -1,0 +1,991 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D05CA9EC1B38D8570043CC1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05CA9EB1B38D8570043CC1D /* AppDelegate.swift */; };
+		D05CA9EE1B38D8570043CC1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05CA9ED1B38D8570043CC1D /* ViewController.swift */; };
+		D05CA9F11B38D8570043CC1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05CA9EF1B38D8570043CC1D /* Main.storyboard */; };
+		D05CA9F31B38D8570043CC1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05CA9F21B38D8570043CC1D /* Assets.xcassets */; };
+		D05CA9F61B38D8570043CC1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05CA9F41B38D8570043CC1D /* LaunchScreen.storyboard */; };
+		D05CA9FB1B38D8570043CC1D /* Picker Demo WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D05CA9FA1B38D8570043CC1D /* Picker Demo WatchKit App.app */; };
+		D05CAA011B38D8570043CC1D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05CA9FF1B38D8570043CC1D /* Interface.storyboard */; };
+		D05CAA031B38D8570043CC1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA021B38D8570043CC1D /* Assets.xcassets */; };
+		D05CAA0A1B38D8570043CC1D /* Picker Demo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D05CAA091B38D8570043CC1D /* Picker Demo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D05CAA111B38D8570043CC1D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05CAA101B38D8570043CC1D /* ExtensionDelegate.swift */; };
+		D05CAA131B38D8570043CC1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA121B38D8570043CC1D /* Assets.xcassets */; };
+		D05CAA8D1B38D8BF0043CC1D /* frame1.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA231B38D8BF0043CC1D /* frame1.png */; };
+		D05CAA8E1B38D8BF0043CC1D /* frame2.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA241B38D8BF0043CC1D /* frame2.png */; };
+		D05CAA8F1B38D8BF0043CC1D /* frame3.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA251B38D8BF0043CC1D /* frame3.png */; };
+		D05CAA901B38D8BF0043CC1D /* frame4.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA261B38D8BF0043CC1D /* frame4.png */; };
+		D05CAA911B38D8BF0043CC1D /* frame5.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA271B38D8BF0043CC1D /* frame5.png */; };
+		D05CAA921B38D8BF0043CC1D /* picker0.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA281B38D8BF0043CC1D /* picker0.png */; };
+		D05CAA931B38D8BF0043CC1D /* picker1.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA291B38D8BF0043CC1D /* picker1.png */; };
+		D05CAA941B38D8BF0043CC1D /* picker2.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA2A1B38D8BF0043CC1D /* picker2.png */; };
+		D05CAA951B38D8BF0043CC1D /* picker3.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA2B1B38D8BF0043CC1D /* picker3.png */; };
+		D05CAA961B38D8BF0043CC1D /* picker4.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA2C1B38D8BF0043CC1D /* picker4.png */; };
+		D05CAA971B38D8BF0043CC1D /* picker5.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA2D1B38D8BF0043CC1D /* picker5.png */; };
+		D05CAA981B38D8BF0043CC1D /* picker6.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA2E1B38D8BF0043CC1D /* picker6.png */; };
+		D05CAA991B38D8BF0043CC1D /* picker7.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA2F1B38D8BF0043CC1D /* picker7.png */; };
+		D05CAA9A1B38D8BF0043CC1D /* picker8.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA301B38D8BF0043CC1D /* picker8.png */; };
+		D05CAA9B1B38D8BF0043CC1D /* picker9.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA311B38D8BF0043CC1D /* picker9.png */; };
+		D05CAA9C1B38D8BF0043CC1D /* picker10.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA321B38D8BF0043CC1D /* picker10.png */; };
+		D05CAA9D1B38D8BF0043CC1D /* picker11.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA331B38D8BF0043CC1D /* picker11.png */; };
+		D05CAA9E1B38D8BF0043CC1D /* picker12.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA341B38D8BF0043CC1D /* picker12.png */; };
+		D05CAA9F1B38D8BF0043CC1D /* picker13.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA351B38D8BF0043CC1D /* picker13.png */; };
+		D05CAAA01B38D8BF0043CC1D /* picker14.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA361B38D8BF0043CC1D /* picker14.png */; };
+		D05CAAA11B38D8BF0043CC1D /* picker15.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA371B38D8BF0043CC1D /* picker15.png */; };
+		D05CAAA21B38D8BF0043CC1D /* picker16.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA381B38D8BF0043CC1D /* picker16.png */; };
+		D05CAAA31B38D8BF0043CC1D /* picker17.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA391B38D8BF0043CC1D /* picker17.png */; };
+		D05CAAA41B38D8BF0043CC1D /* picker18.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA3A1B38D8BF0043CC1D /* picker18.png */; };
+		D05CAAA51B38D8BF0043CC1D /* picker19.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA3B1B38D8BF0043CC1D /* picker19.png */; };
+		D05CAAA61B38D8BF0043CC1D /* picker20.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA3C1B38D8BF0043CC1D /* picker20.png */; };
+		D05CAAA71B38D8BF0043CC1D /* picker21.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA3D1B38D8BF0043CC1D /* picker21.png */; };
+		D05CAAA81B38D8BF0043CC1D /* picker22.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA3E1B38D8BF0043CC1D /* picker22.png */; };
+		D05CAAA91B38D8BF0043CC1D /* picker23.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA3F1B38D8BF0043CC1D /* picker23.png */; };
+		D05CAAAA1B38D8BF0043CC1D /* picker24.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA401B38D8BF0043CC1D /* picker24.png */; };
+		D05CAAAB1B38D8BF0043CC1D /* picker25.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA411B38D8BF0043CC1D /* picker25.png */; };
+		D05CAAAC1B38D8BF0043CC1D /* picker26.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA421B38D8BF0043CC1D /* picker26.png */; };
+		D05CAAAD1B38D8BF0043CC1D /* picker27.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA431B38D8BF0043CC1D /* picker27.png */; };
+		D05CAAAE1B38D8BF0043CC1D /* picker28.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA441B38D8BF0043CC1D /* picker28.png */; };
+		D05CAAAF1B38D8BF0043CC1D /* picker29.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA451B38D8BF0043CC1D /* picker29.png */; };
+		D05CAAB01B38D8BF0043CC1D /* picker30.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA461B38D8BF0043CC1D /* picker30.png */; };
+		D05CAAB11B38D8BF0043CC1D /* picker31.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA471B38D8BF0043CC1D /* picker31.png */; };
+		D05CAAB21B38D8BF0043CC1D /* picker32.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA481B38D8BF0043CC1D /* picker32.png */; };
+		D05CAAB31B38D8BF0043CC1D /* picker33.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA491B38D8BF0043CC1D /* picker33.png */; };
+		D05CAAB41B38D8BF0043CC1D /* picker34.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA4A1B38D8BF0043CC1D /* picker34.png */; };
+		D05CAAB51B38D8BF0043CC1D /* picker35.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA4B1B38D8BF0043CC1D /* picker35.png */; };
+		D05CAAB61B38D8BF0043CC1D /* picker36.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA4C1B38D8BF0043CC1D /* picker36.png */; };
+		D05CAAB71B38D8BF0043CC1D /* picker37.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA4D1B38D8BF0043CC1D /* picker37.png */; };
+		D05CAAB81B38D8BF0043CC1D /* picker38.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA4E1B38D8BF0043CC1D /* picker38.png */; };
+		D05CAAB91B38D8BF0043CC1D /* picker39.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA4F1B38D8BF0043CC1D /* picker39.png */; };
+		D05CAABA1B38D8BF0043CC1D /* picker40.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA501B38D8BF0043CC1D /* picker40.png */; };
+		D05CAABB1B38D8BF0043CC1D /* picker41.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA511B38D8BF0043CC1D /* picker41.png */; };
+		D05CAABC1B38D8BF0043CC1D /* picker42.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA521B38D8BF0043CC1D /* picker42.png */; };
+		D05CAABD1B38D8BF0043CC1D /* picker43.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA531B38D8BF0043CC1D /* picker43.png */; };
+		D05CAABE1B38D8BF0043CC1D /* picker44.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA541B38D8BF0043CC1D /* picker44.png */; };
+		D05CAABF1B38D8BF0043CC1D /* picker45.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA551B38D8BF0043CC1D /* picker45.png */; };
+		D05CAAC01B38D8BF0043CC1D /* picker46.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA561B38D8BF0043CC1D /* picker46.png */; };
+		D05CAAC11B38D8BF0043CC1D /* picker47.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA571B38D8BF0043CC1D /* picker47.png */; };
+		D05CAAC21B38D8BF0043CC1D /* picker48.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA581B38D8BF0043CC1D /* picker48.png */; };
+		D05CAAC31B38D8BF0043CC1D /* picker49.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA591B38D8BF0043CC1D /* picker49.png */; };
+		D05CAAC41B38D8BF0043CC1D /* picker50.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA5A1B38D8BF0043CC1D /* picker50.png */; };
+		D05CAAC51B38D8BF0043CC1D /* picker51.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA5B1B38D8BF0043CC1D /* picker51.png */; };
+		D05CAAC61B38D8BF0043CC1D /* picker52.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA5C1B38D8BF0043CC1D /* picker52.png */; };
+		D05CAAC71B38D8BF0043CC1D /* picker53.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA5D1B38D8BF0043CC1D /* picker53.png */; };
+		D05CAAC81B38D8BF0043CC1D /* picker54.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA5E1B38D8BF0043CC1D /* picker54.png */; };
+		D05CAAC91B38D8BF0043CC1D /* picker55.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA5F1B38D8BF0043CC1D /* picker55.png */; };
+		D05CAACA1B38D8BF0043CC1D /* picker56.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA601B38D8BF0043CC1D /* picker56.png */; };
+		D05CAACB1B38D8BF0043CC1D /* picker57.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA611B38D8BF0043CC1D /* picker57.png */; };
+		D05CAACC1B38D8BF0043CC1D /* picker58.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA621B38D8BF0043CC1D /* picker58.png */; };
+		D05CAACD1B38D8BF0043CC1D /* picker59.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA631B38D8BF0043CC1D /* picker59.png */; };
+		D05CAACE1B38D8BF0043CC1D /* picker60.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA641B38D8BF0043CC1D /* picker60.png */; };
+		D05CAACF1B38D8BF0043CC1D /* picker61.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA651B38D8BF0043CC1D /* picker61.png */; };
+		D05CAAD01B38D8BF0043CC1D /* picker62.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA661B38D8BF0043CC1D /* picker62.png */; };
+		D05CAAD11B38D8BF0043CC1D /* picker63.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA671B38D8BF0043CC1D /* picker63.png */; };
+		D05CAAD21B38D8BF0043CC1D /* picker64.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA681B38D8BF0043CC1D /* picker64.png */; };
+		D05CAAD31B38D8BF0043CC1D /* picker65.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA691B38D8BF0043CC1D /* picker65.png */; };
+		D05CAAD41B38D8BF0043CC1D /* picker66.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA6A1B38D8BF0043CC1D /* picker66.png */; };
+		D05CAAD51B38D8BF0043CC1D /* picker67.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA6B1B38D8BF0043CC1D /* picker67.png */; };
+		D05CAAD61B38D8BF0043CC1D /* picker68.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA6C1B38D8BF0043CC1D /* picker68.png */; };
+		D05CAAD71B38D8BF0043CC1D /* picker69.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA6D1B38D8BF0043CC1D /* picker69.png */; };
+		D05CAAD81B38D8BF0043CC1D /* picker70.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA6E1B38D8BF0043CC1D /* picker70.png */; };
+		D05CAAD91B38D8BF0043CC1D /* picker71.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA6F1B38D8BF0043CC1D /* picker71.png */; };
+		D05CAADA1B38D8BF0043CC1D /* picker72.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA701B38D8BF0043CC1D /* picker72.png */; };
+		D05CAADB1B38D8BF0043CC1D /* picker73.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA711B38D8BF0043CC1D /* picker73.png */; };
+		D05CAADC1B38D8BF0043CC1D /* picker74.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA721B38D8BF0043CC1D /* picker74.png */; };
+		D05CAADD1B38D8BF0043CC1D /* picker75.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA731B38D8BF0043CC1D /* picker75.png */; };
+		D05CAADE1B38D8BF0043CC1D /* picker76.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA741B38D8BF0043CC1D /* picker76.png */; };
+		D05CAADF1B38D8BF0043CC1D /* picker77.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA751B38D8BF0043CC1D /* picker77.png */; };
+		D05CAAE01B38D8BF0043CC1D /* picker78.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA761B38D8BF0043CC1D /* picker78.png */; };
+		D05CAAE11B38D8BF0043CC1D /* picker79.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA771B38D8BF0043CC1D /* picker79.png */; };
+		D05CAAE21B38D8BF0043CC1D /* picker80.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA781B38D8BF0043CC1D /* picker80.png */; };
+		D05CAAE31B38D8BF0043CC1D /* picker81.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA791B38D8BF0043CC1D /* picker81.png */; };
+		D05CAAE41B38D8BF0043CC1D /* picker82.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA7A1B38D8BF0043CC1D /* picker82.png */; };
+		D05CAAE51B38D8BF0043CC1D /* picker83.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA7B1B38D8BF0043CC1D /* picker83.png */; };
+		D05CAAE61B38D8BF0043CC1D /* picker84.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA7C1B38D8BF0043CC1D /* picker84.png */; };
+		D05CAAE71B38D8BF0043CC1D /* picker85.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA7D1B38D8BF0043CC1D /* picker85.png */; };
+		D05CAAE81B38D8BF0043CC1D /* picker86.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA7E1B38D8BF0043CC1D /* picker86.png */; };
+		D05CAAE91B38D8BF0043CC1D /* picker87.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA7F1B38D8BF0043CC1D /* picker87.png */; };
+		D05CAAEA1B38D8BF0043CC1D /* picker88.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA801B38D8BF0043CC1D /* picker88.png */; };
+		D05CAAEB1B38D8BF0043CC1D /* picker89.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA811B38D8BF0043CC1D /* picker89.png */; };
+		D05CAAEC1B38D8BF0043CC1D /* picker90.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA821B38D8BF0043CC1D /* picker90.png */; };
+		D05CAAED1B38D8BF0043CC1D /* picker91.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA831B38D8BF0043CC1D /* picker91.png */; };
+		D05CAAEE1B38D8BF0043CC1D /* picker92.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA841B38D8BF0043CC1D /* picker92.png */; };
+		D05CAAEF1B38D8BF0043CC1D /* picker93.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA851B38D8BF0043CC1D /* picker93.png */; };
+		D05CAAF01B38D8BF0043CC1D /* picker94.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA861B38D8BF0043CC1D /* picker94.png */; };
+		D05CAAF11B38D8BF0043CC1D /* picker95.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA871B38D8BF0043CC1D /* picker95.png */; };
+		D05CAAF21B38D8BF0043CC1D /* picker96.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA881B38D8BF0043CC1D /* picker96.png */; };
+		D05CAAF31B38D8BF0043CC1D /* picker97.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA891B38D8BF0043CC1D /* picker97.png */; };
+		D05CAAF41B38D8BF0043CC1D /* picker98.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA8A1B38D8BF0043CC1D /* picker98.png */; };
+		D05CAAF51B38D8BF0043CC1D /* picker99.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA8B1B38D8BF0043CC1D /* picker99.png */; };
+		D05CAAF61B38D8BF0043CC1D /* picker100.png in Resources */ = {isa = PBXBuildFile; fileRef = D05CAA8C1B38D8BF0043CC1D /* picker100.png */; };
+		D05CAAFA1B38D8DF0043CC1D /* ListPickerInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05CAAF71B38D8DF0043CC1D /* ListPickerInterfaceController.swift */; };
+		D05CAAFB1B38D8DF0043CC1D /* SequencePickerInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05CAAF81B38D8DF0043CC1D /* SequencePickerInterfaceController.swift */; };
+		D05CAAFC1B38D8DF0043CC1D /* StackPickerInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05CAAF91B38D8DF0043CC1D /* StackPickerInterfaceController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D05CA9FC1B38D8570043CC1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D05CA9E01B38D8570043CC1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05CA9F91B38D8570043CC1D;
+			remoteInfo = "Picker Demo WatchKit App";
+		};
+		D05CAA0B1B38D8570043CC1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D05CA9E01B38D8570043CC1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05CAA081B38D8570043CC1D;
+			remoteInfo = "Picker Demo WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D05CAA1A1B38D8570043CC1D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D05CAA0A1B38D8570043CC1D /* Picker Demo WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05CAA1E1B38D8570043CC1D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D05CA9FB1B38D8570043CC1D /* Picker Demo WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D05CA9E81B38D8570043CC1D /* Picker Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Picker Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05CA9EB1B38D8570043CC1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D05CA9ED1B38D8570043CC1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D05CA9F01B38D8570043CC1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D05CA9F21B38D8570043CC1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D05CA9F51B38D8570043CC1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D05CA9F71B38D8570043CC1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05CA9FA1B38D8570043CC1D /* Picker Demo WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Picker Demo WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05CAA001B38D8570043CC1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D05CAA021B38D8570043CC1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D05CAA041B38D8570043CC1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05CAA091B38D8570043CC1D /* Picker Demo WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Picker Demo WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05CAA101B38D8570043CC1D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D05CAA121B38D8570043CC1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D05CAA141B38D8570043CC1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D05CAA231B38D8BF0043CC1D /* frame1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame1.png; path = Images/frame1.png; sourceTree = "<group>"; };
+		D05CAA241B38D8BF0043CC1D /* frame2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame2.png; path = Images/frame2.png; sourceTree = "<group>"; };
+		D05CAA251B38D8BF0043CC1D /* frame3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame3.png; path = Images/frame3.png; sourceTree = "<group>"; };
+		D05CAA261B38D8BF0043CC1D /* frame4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame4.png; path = Images/frame4.png; sourceTree = "<group>"; };
+		D05CAA271B38D8BF0043CC1D /* frame5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame5.png; path = Images/frame5.png; sourceTree = "<group>"; };
+		D05CAA281B38D8BF0043CC1D /* picker0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker0.png; path = Images/picker0.png; sourceTree = "<group>"; };
+		D05CAA291B38D8BF0043CC1D /* picker1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker1.png; path = Images/picker1.png; sourceTree = "<group>"; };
+		D05CAA2A1B38D8BF0043CC1D /* picker2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker2.png; path = Images/picker2.png; sourceTree = "<group>"; };
+		D05CAA2B1B38D8BF0043CC1D /* picker3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker3.png; path = Images/picker3.png; sourceTree = "<group>"; };
+		D05CAA2C1B38D8BF0043CC1D /* picker4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker4.png; path = Images/picker4.png; sourceTree = "<group>"; };
+		D05CAA2D1B38D8BF0043CC1D /* picker5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker5.png; path = Images/picker5.png; sourceTree = "<group>"; };
+		D05CAA2E1B38D8BF0043CC1D /* picker6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker6.png; path = Images/picker6.png; sourceTree = "<group>"; };
+		D05CAA2F1B38D8BF0043CC1D /* picker7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker7.png; path = Images/picker7.png; sourceTree = "<group>"; };
+		D05CAA301B38D8BF0043CC1D /* picker8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker8.png; path = Images/picker8.png; sourceTree = "<group>"; };
+		D05CAA311B38D8BF0043CC1D /* picker9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker9.png; path = Images/picker9.png; sourceTree = "<group>"; };
+		D05CAA321B38D8BF0043CC1D /* picker10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker10.png; path = Images/picker10.png; sourceTree = "<group>"; };
+		D05CAA331B38D8BF0043CC1D /* picker11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker11.png; path = Images/picker11.png; sourceTree = "<group>"; };
+		D05CAA341B38D8BF0043CC1D /* picker12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker12.png; path = Images/picker12.png; sourceTree = "<group>"; };
+		D05CAA351B38D8BF0043CC1D /* picker13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker13.png; path = Images/picker13.png; sourceTree = "<group>"; };
+		D05CAA361B38D8BF0043CC1D /* picker14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker14.png; path = Images/picker14.png; sourceTree = "<group>"; };
+		D05CAA371B38D8BF0043CC1D /* picker15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker15.png; path = Images/picker15.png; sourceTree = "<group>"; };
+		D05CAA381B38D8BF0043CC1D /* picker16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker16.png; path = Images/picker16.png; sourceTree = "<group>"; };
+		D05CAA391B38D8BF0043CC1D /* picker17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker17.png; path = Images/picker17.png; sourceTree = "<group>"; };
+		D05CAA3A1B38D8BF0043CC1D /* picker18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker18.png; path = Images/picker18.png; sourceTree = "<group>"; };
+		D05CAA3B1B38D8BF0043CC1D /* picker19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker19.png; path = Images/picker19.png; sourceTree = "<group>"; };
+		D05CAA3C1B38D8BF0043CC1D /* picker20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker20.png; path = Images/picker20.png; sourceTree = "<group>"; };
+		D05CAA3D1B38D8BF0043CC1D /* picker21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker21.png; path = Images/picker21.png; sourceTree = "<group>"; };
+		D05CAA3E1B38D8BF0043CC1D /* picker22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker22.png; path = Images/picker22.png; sourceTree = "<group>"; };
+		D05CAA3F1B38D8BF0043CC1D /* picker23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker23.png; path = Images/picker23.png; sourceTree = "<group>"; };
+		D05CAA401B38D8BF0043CC1D /* picker24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker24.png; path = Images/picker24.png; sourceTree = "<group>"; };
+		D05CAA411B38D8BF0043CC1D /* picker25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker25.png; path = Images/picker25.png; sourceTree = "<group>"; };
+		D05CAA421B38D8BF0043CC1D /* picker26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker26.png; path = Images/picker26.png; sourceTree = "<group>"; };
+		D05CAA431B38D8BF0043CC1D /* picker27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker27.png; path = Images/picker27.png; sourceTree = "<group>"; };
+		D05CAA441B38D8BF0043CC1D /* picker28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker28.png; path = Images/picker28.png; sourceTree = "<group>"; };
+		D05CAA451B38D8BF0043CC1D /* picker29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker29.png; path = Images/picker29.png; sourceTree = "<group>"; };
+		D05CAA461B38D8BF0043CC1D /* picker30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker30.png; path = Images/picker30.png; sourceTree = "<group>"; };
+		D05CAA471B38D8BF0043CC1D /* picker31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker31.png; path = Images/picker31.png; sourceTree = "<group>"; };
+		D05CAA481B38D8BF0043CC1D /* picker32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker32.png; path = Images/picker32.png; sourceTree = "<group>"; };
+		D05CAA491B38D8BF0043CC1D /* picker33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker33.png; path = Images/picker33.png; sourceTree = "<group>"; };
+		D05CAA4A1B38D8BF0043CC1D /* picker34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker34.png; path = Images/picker34.png; sourceTree = "<group>"; };
+		D05CAA4B1B38D8BF0043CC1D /* picker35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker35.png; path = Images/picker35.png; sourceTree = "<group>"; };
+		D05CAA4C1B38D8BF0043CC1D /* picker36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker36.png; path = Images/picker36.png; sourceTree = "<group>"; };
+		D05CAA4D1B38D8BF0043CC1D /* picker37.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker37.png; path = Images/picker37.png; sourceTree = "<group>"; };
+		D05CAA4E1B38D8BF0043CC1D /* picker38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker38.png; path = Images/picker38.png; sourceTree = "<group>"; };
+		D05CAA4F1B38D8BF0043CC1D /* picker39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker39.png; path = Images/picker39.png; sourceTree = "<group>"; };
+		D05CAA501B38D8BF0043CC1D /* picker40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker40.png; path = Images/picker40.png; sourceTree = "<group>"; };
+		D05CAA511B38D8BF0043CC1D /* picker41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker41.png; path = Images/picker41.png; sourceTree = "<group>"; };
+		D05CAA521B38D8BF0043CC1D /* picker42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker42.png; path = Images/picker42.png; sourceTree = "<group>"; };
+		D05CAA531B38D8BF0043CC1D /* picker43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker43.png; path = Images/picker43.png; sourceTree = "<group>"; };
+		D05CAA541B38D8BF0043CC1D /* picker44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker44.png; path = Images/picker44.png; sourceTree = "<group>"; };
+		D05CAA551B38D8BF0043CC1D /* picker45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker45.png; path = Images/picker45.png; sourceTree = "<group>"; };
+		D05CAA561B38D8BF0043CC1D /* picker46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker46.png; path = Images/picker46.png; sourceTree = "<group>"; };
+		D05CAA571B38D8BF0043CC1D /* picker47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker47.png; path = Images/picker47.png; sourceTree = "<group>"; };
+		D05CAA581B38D8BF0043CC1D /* picker48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker48.png; path = Images/picker48.png; sourceTree = "<group>"; };
+		D05CAA591B38D8BF0043CC1D /* picker49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker49.png; path = Images/picker49.png; sourceTree = "<group>"; };
+		D05CAA5A1B38D8BF0043CC1D /* picker50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker50.png; path = Images/picker50.png; sourceTree = "<group>"; };
+		D05CAA5B1B38D8BF0043CC1D /* picker51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker51.png; path = Images/picker51.png; sourceTree = "<group>"; };
+		D05CAA5C1B38D8BF0043CC1D /* picker52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker52.png; path = Images/picker52.png; sourceTree = "<group>"; };
+		D05CAA5D1B38D8BF0043CC1D /* picker53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker53.png; path = Images/picker53.png; sourceTree = "<group>"; };
+		D05CAA5E1B38D8BF0043CC1D /* picker54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker54.png; path = Images/picker54.png; sourceTree = "<group>"; };
+		D05CAA5F1B38D8BF0043CC1D /* picker55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker55.png; path = Images/picker55.png; sourceTree = "<group>"; };
+		D05CAA601B38D8BF0043CC1D /* picker56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker56.png; path = Images/picker56.png; sourceTree = "<group>"; };
+		D05CAA611B38D8BF0043CC1D /* picker57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker57.png; path = Images/picker57.png; sourceTree = "<group>"; };
+		D05CAA621B38D8BF0043CC1D /* picker58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker58.png; path = Images/picker58.png; sourceTree = "<group>"; };
+		D05CAA631B38D8BF0043CC1D /* picker59.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker59.png; path = Images/picker59.png; sourceTree = "<group>"; };
+		D05CAA641B38D8BF0043CC1D /* picker60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker60.png; path = Images/picker60.png; sourceTree = "<group>"; };
+		D05CAA651B38D8BF0043CC1D /* picker61.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker61.png; path = Images/picker61.png; sourceTree = "<group>"; };
+		D05CAA661B38D8BF0043CC1D /* picker62.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker62.png; path = Images/picker62.png; sourceTree = "<group>"; };
+		D05CAA671B38D8BF0043CC1D /* picker63.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker63.png; path = Images/picker63.png; sourceTree = "<group>"; };
+		D05CAA681B38D8BF0043CC1D /* picker64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker64.png; path = Images/picker64.png; sourceTree = "<group>"; };
+		D05CAA691B38D8BF0043CC1D /* picker65.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker65.png; path = Images/picker65.png; sourceTree = "<group>"; };
+		D05CAA6A1B38D8BF0043CC1D /* picker66.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker66.png; path = Images/picker66.png; sourceTree = "<group>"; };
+		D05CAA6B1B38D8BF0043CC1D /* picker67.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker67.png; path = Images/picker67.png; sourceTree = "<group>"; };
+		D05CAA6C1B38D8BF0043CC1D /* picker68.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker68.png; path = Images/picker68.png; sourceTree = "<group>"; };
+		D05CAA6D1B38D8BF0043CC1D /* picker69.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker69.png; path = Images/picker69.png; sourceTree = "<group>"; };
+		D05CAA6E1B38D8BF0043CC1D /* picker70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker70.png; path = Images/picker70.png; sourceTree = "<group>"; };
+		D05CAA6F1B38D8BF0043CC1D /* picker71.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker71.png; path = Images/picker71.png; sourceTree = "<group>"; };
+		D05CAA701B38D8BF0043CC1D /* picker72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker72.png; path = Images/picker72.png; sourceTree = "<group>"; };
+		D05CAA711B38D8BF0043CC1D /* picker73.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker73.png; path = Images/picker73.png; sourceTree = "<group>"; };
+		D05CAA721B38D8BF0043CC1D /* picker74.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker74.png; path = Images/picker74.png; sourceTree = "<group>"; };
+		D05CAA731B38D8BF0043CC1D /* picker75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker75.png; path = Images/picker75.png; sourceTree = "<group>"; };
+		D05CAA741B38D8BF0043CC1D /* picker76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker76.png; path = Images/picker76.png; sourceTree = "<group>"; };
+		D05CAA751B38D8BF0043CC1D /* picker77.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker77.png; path = Images/picker77.png; sourceTree = "<group>"; };
+		D05CAA761B38D8BF0043CC1D /* picker78.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker78.png; path = Images/picker78.png; sourceTree = "<group>"; };
+		D05CAA771B38D8BF0043CC1D /* picker79.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker79.png; path = Images/picker79.png; sourceTree = "<group>"; };
+		D05CAA781B38D8BF0043CC1D /* picker80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker80.png; path = Images/picker80.png; sourceTree = "<group>"; };
+		D05CAA791B38D8BF0043CC1D /* picker81.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker81.png; path = Images/picker81.png; sourceTree = "<group>"; };
+		D05CAA7A1B38D8BF0043CC1D /* picker82.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker82.png; path = Images/picker82.png; sourceTree = "<group>"; };
+		D05CAA7B1B38D8BF0043CC1D /* picker83.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker83.png; path = Images/picker83.png; sourceTree = "<group>"; };
+		D05CAA7C1B38D8BF0043CC1D /* picker84.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker84.png; path = Images/picker84.png; sourceTree = "<group>"; };
+		D05CAA7D1B38D8BF0043CC1D /* picker85.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker85.png; path = Images/picker85.png; sourceTree = "<group>"; };
+		D05CAA7E1B38D8BF0043CC1D /* picker86.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker86.png; path = Images/picker86.png; sourceTree = "<group>"; };
+		D05CAA7F1B38D8BF0043CC1D /* picker87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker87.png; path = Images/picker87.png; sourceTree = "<group>"; };
+		D05CAA801B38D8BF0043CC1D /* picker88.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker88.png; path = Images/picker88.png; sourceTree = "<group>"; };
+		D05CAA811B38D8BF0043CC1D /* picker89.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker89.png; path = Images/picker89.png; sourceTree = "<group>"; };
+		D05CAA821B38D8BF0043CC1D /* picker90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker90.png; path = Images/picker90.png; sourceTree = "<group>"; };
+		D05CAA831B38D8BF0043CC1D /* picker91.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker91.png; path = Images/picker91.png; sourceTree = "<group>"; };
+		D05CAA841B38D8BF0043CC1D /* picker92.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker92.png; path = Images/picker92.png; sourceTree = "<group>"; };
+		D05CAA851B38D8BF0043CC1D /* picker93.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker93.png; path = Images/picker93.png; sourceTree = "<group>"; };
+		D05CAA861B38D8BF0043CC1D /* picker94.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker94.png; path = Images/picker94.png; sourceTree = "<group>"; };
+		D05CAA871B38D8BF0043CC1D /* picker95.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker95.png; path = Images/picker95.png; sourceTree = "<group>"; };
+		D05CAA881B38D8BF0043CC1D /* picker96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker96.png; path = Images/picker96.png; sourceTree = "<group>"; };
+		D05CAA891B38D8BF0043CC1D /* picker97.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker97.png; path = Images/picker97.png; sourceTree = "<group>"; };
+		D05CAA8A1B38D8BF0043CC1D /* picker98.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker98.png; path = Images/picker98.png; sourceTree = "<group>"; };
+		D05CAA8B1B38D8BF0043CC1D /* picker99.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker99.png; path = Images/picker99.png; sourceTree = "<group>"; };
+		D05CAA8C1B38D8BF0043CC1D /* picker100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = picker100.png; path = Images/picker100.png; sourceTree = "<group>"; };
+		D05CAAF71B38D8DF0043CC1D /* ListPickerInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPickerInterfaceController.swift; sourceTree = "<group>"; };
+		D05CAAF81B38D8DF0043CC1D /* SequencePickerInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SequencePickerInterfaceController.swift; sourceTree = "<group>"; };
+		D05CAAF91B38D8DF0043CC1D /* StackPickerInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackPickerInterfaceController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D05CA9E51B38D8570043CC1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05CAA061B38D8570043CC1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D05CA9DF1B38D8570043CC1D = {
+			isa = PBXGroup;
+			children = (
+				D05CA9EA1B38D8570043CC1D /* Picker Demo */,
+				D05CA9FE1B38D8570043CC1D /* Picker Demo WatchKit App */,
+				D05CAA0D1B38D8570043CC1D /* Picker Demo WatchKit Extension */,
+				D05CA9E91B38D8570043CC1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D05CA9E91B38D8570043CC1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D05CA9E81B38D8570043CC1D /* Picker Demo.app */,
+				D05CA9FA1B38D8570043CC1D /* Picker Demo WatchKit App.app */,
+				D05CAA091B38D8570043CC1D /* Picker Demo WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D05CA9EA1B38D8570043CC1D /* Picker Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D05CA9EB1B38D8570043CC1D /* AppDelegate.swift */,
+				D05CA9ED1B38D8570043CC1D /* ViewController.swift */,
+				D05CA9EF1B38D8570043CC1D /* Main.storyboard */,
+				D05CA9F21B38D8570043CC1D /* Assets.xcassets */,
+				D05CA9F41B38D8570043CC1D /* LaunchScreen.storyboard */,
+				D05CA9F71B38D8570043CC1D /* Info.plist */,
+			);
+			path = "Picker Demo";
+			sourceTree = "<group>";
+		};
+		D05CA9FE1B38D8570043CC1D /* Picker Demo WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D05CAA221B38D86A0043CC1D /* Images */,
+				D05CA9FF1B38D8570043CC1D /* Interface.storyboard */,
+				D05CAA021B38D8570043CC1D /* Assets.xcassets */,
+				D05CAA041B38D8570043CC1D /* Info.plist */,
+			);
+			path = "Picker Demo WatchKit App";
+			sourceTree = "<group>";
+		};
+		D05CAA0D1B38D8570043CC1D /* Picker Demo WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D05CAAF71B38D8DF0043CC1D /* ListPickerInterfaceController.swift */,
+				D05CAAF81B38D8DF0043CC1D /* SequencePickerInterfaceController.swift */,
+				D05CAAF91B38D8DF0043CC1D /* StackPickerInterfaceController.swift */,
+				D05CAA101B38D8570043CC1D /* ExtensionDelegate.swift */,
+				D05CAA121B38D8570043CC1D /* Assets.xcassets */,
+				D05CAA141B38D8570043CC1D /* Info.plist */,
+			);
+			path = "Picker Demo WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D05CAA221B38D86A0043CC1D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D05CAA231B38D8BF0043CC1D /* frame1.png */,
+				D05CAA241B38D8BF0043CC1D /* frame2.png */,
+				D05CAA251B38D8BF0043CC1D /* frame3.png */,
+				D05CAA261B38D8BF0043CC1D /* frame4.png */,
+				D05CAA271B38D8BF0043CC1D /* frame5.png */,
+				D05CAA281B38D8BF0043CC1D /* picker0.png */,
+				D05CAA291B38D8BF0043CC1D /* picker1.png */,
+				D05CAA2A1B38D8BF0043CC1D /* picker2.png */,
+				D05CAA2B1B38D8BF0043CC1D /* picker3.png */,
+				D05CAA2C1B38D8BF0043CC1D /* picker4.png */,
+				D05CAA2D1B38D8BF0043CC1D /* picker5.png */,
+				D05CAA2E1B38D8BF0043CC1D /* picker6.png */,
+				D05CAA2F1B38D8BF0043CC1D /* picker7.png */,
+				D05CAA301B38D8BF0043CC1D /* picker8.png */,
+				D05CAA311B38D8BF0043CC1D /* picker9.png */,
+				D05CAA321B38D8BF0043CC1D /* picker10.png */,
+				D05CAA331B38D8BF0043CC1D /* picker11.png */,
+				D05CAA341B38D8BF0043CC1D /* picker12.png */,
+				D05CAA351B38D8BF0043CC1D /* picker13.png */,
+				D05CAA361B38D8BF0043CC1D /* picker14.png */,
+				D05CAA371B38D8BF0043CC1D /* picker15.png */,
+				D05CAA381B38D8BF0043CC1D /* picker16.png */,
+				D05CAA391B38D8BF0043CC1D /* picker17.png */,
+				D05CAA3A1B38D8BF0043CC1D /* picker18.png */,
+				D05CAA3B1B38D8BF0043CC1D /* picker19.png */,
+				D05CAA3C1B38D8BF0043CC1D /* picker20.png */,
+				D05CAA3D1B38D8BF0043CC1D /* picker21.png */,
+				D05CAA3E1B38D8BF0043CC1D /* picker22.png */,
+				D05CAA3F1B38D8BF0043CC1D /* picker23.png */,
+				D05CAA401B38D8BF0043CC1D /* picker24.png */,
+				D05CAA411B38D8BF0043CC1D /* picker25.png */,
+				D05CAA421B38D8BF0043CC1D /* picker26.png */,
+				D05CAA431B38D8BF0043CC1D /* picker27.png */,
+				D05CAA441B38D8BF0043CC1D /* picker28.png */,
+				D05CAA451B38D8BF0043CC1D /* picker29.png */,
+				D05CAA461B38D8BF0043CC1D /* picker30.png */,
+				D05CAA471B38D8BF0043CC1D /* picker31.png */,
+				D05CAA481B38D8BF0043CC1D /* picker32.png */,
+				D05CAA491B38D8BF0043CC1D /* picker33.png */,
+				D05CAA4A1B38D8BF0043CC1D /* picker34.png */,
+				D05CAA4B1B38D8BF0043CC1D /* picker35.png */,
+				D05CAA4C1B38D8BF0043CC1D /* picker36.png */,
+				D05CAA4D1B38D8BF0043CC1D /* picker37.png */,
+				D05CAA4E1B38D8BF0043CC1D /* picker38.png */,
+				D05CAA4F1B38D8BF0043CC1D /* picker39.png */,
+				D05CAA501B38D8BF0043CC1D /* picker40.png */,
+				D05CAA511B38D8BF0043CC1D /* picker41.png */,
+				D05CAA521B38D8BF0043CC1D /* picker42.png */,
+				D05CAA531B38D8BF0043CC1D /* picker43.png */,
+				D05CAA541B38D8BF0043CC1D /* picker44.png */,
+				D05CAA551B38D8BF0043CC1D /* picker45.png */,
+				D05CAA561B38D8BF0043CC1D /* picker46.png */,
+				D05CAA571B38D8BF0043CC1D /* picker47.png */,
+				D05CAA581B38D8BF0043CC1D /* picker48.png */,
+				D05CAA591B38D8BF0043CC1D /* picker49.png */,
+				D05CAA5A1B38D8BF0043CC1D /* picker50.png */,
+				D05CAA5B1B38D8BF0043CC1D /* picker51.png */,
+				D05CAA5C1B38D8BF0043CC1D /* picker52.png */,
+				D05CAA5D1B38D8BF0043CC1D /* picker53.png */,
+				D05CAA5E1B38D8BF0043CC1D /* picker54.png */,
+				D05CAA5F1B38D8BF0043CC1D /* picker55.png */,
+				D05CAA601B38D8BF0043CC1D /* picker56.png */,
+				D05CAA611B38D8BF0043CC1D /* picker57.png */,
+				D05CAA621B38D8BF0043CC1D /* picker58.png */,
+				D05CAA631B38D8BF0043CC1D /* picker59.png */,
+				D05CAA641B38D8BF0043CC1D /* picker60.png */,
+				D05CAA651B38D8BF0043CC1D /* picker61.png */,
+				D05CAA661B38D8BF0043CC1D /* picker62.png */,
+				D05CAA671B38D8BF0043CC1D /* picker63.png */,
+				D05CAA681B38D8BF0043CC1D /* picker64.png */,
+				D05CAA691B38D8BF0043CC1D /* picker65.png */,
+				D05CAA6A1B38D8BF0043CC1D /* picker66.png */,
+				D05CAA6B1B38D8BF0043CC1D /* picker67.png */,
+				D05CAA6C1B38D8BF0043CC1D /* picker68.png */,
+				D05CAA6D1B38D8BF0043CC1D /* picker69.png */,
+				D05CAA6E1B38D8BF0043CC1D /* picker70.png */,
+				D05CAA6F1B38D8BF0043CC1D /* picker71.png */,
+				D05CAA701B38D8BF0043CC1D /* picker72.png */,
+				D05CAA711B38D8BF0043CC1D /* picker73.png */,
+				D05CAA721B38D8BF0043CC1D /* picker74.png */,
+				D05CAA731B38D8BF0043CC1D /* picker75.png */,
+				D05CAA741B38D8BF0043CC1D /* picker76.png */,
+				D05CAA751B38D8BF0043CC1D /* picker77.png */,
+				D05CAA761B38D8BF0043CC1D /* picker78.png */,
+				D05CAA771B38D8BF0043CC1D /* picker79.png */,
+				D05CAA781B38D8BF0043CC1D /* picker80.png */,
+				D05CAA791B38D8BF0043CC1D /* picker81.png */,
+				D05CAA7A1B38D8BF0043CC1D /* picker82.png */,
+				D05CAA7B1B38D8BF0043CC1D /* picker83.png */,
+				D05CAA7C1B38D8BF0043CC1D /* picker84.png */,
+				D05CAA7D1B38D8BF0043CC1D /* picker85.png */,
+				D05CAA7E1B38D8BF0043CC1D /* picker86.png */,
+				D05CAA7F1B38D8BF0043CC1D /* picker87.png */,
+				D05CAA801B38D8BF0043CC1D /* picker88.png */,
+				D05CAA811B38D8BF0043CC1D /* picker89.png */,
+				D05CAA821B38D8BF0043CC1D /* picker90.png */,
+				D05CAA831B38D8BF0043CC1D /* picker91.png */,
+				D05CAA841B38D8BF0043CC1D /* picker92.png */,
+				D05CAA851B38D8BF0043CC1D /* picker93.png */,
+				D05CAA861B38D8BF0043CC1D /* picker94.png */,
+				D05CAA871B38D8BF0043CC1D /* picker95.png */,
+				D05CAA881B38D8BF0043CC1D /* picker96.png */,
+				D05CAA891B38D8BF0043CC1D /* picker97.png */,
+				D05CAA8A1B38D8BF0043CC1D /* picker98.png */,
+				D05CAA8B1B38D8BF0043CC1D /* picker99.png */,
+				D05CAA8C1B38D8BF0043CC1D /* picker100.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D05CA9E71B38D8570043CC1D /* Picker Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05CAA1F1B38D8570043CC1D /* Build configuration list for PBXNativeTarget "Picker Demo" */;
+			buildPhases = (
+				D05CA9E41B38D8570043CC1D /* Sources */,
+				D05CA9E51B38D8570043CC1D /* Frameworks */,
+				D05CA9E61B38D8570043CC1D /* Resources */,
+				D05CAA1E1B38D8570043CC1D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D05CA9FD1B38D8570043CC1D /* PBXTargetDependency */,
+			);
+			name = "Picker Demo";
+			productName = "Picker Demo";
+			productReference = D05CA9E81B38D8570043CC1D /* Picker Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D05CA9F91B38D8570043CC1D /* Picker Demo WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05CAA1B1B38D8570043CC1D /* Build configuration list for PBXNativeTarget "Picker Demo WatchKit App" */;
+			buildPhases = (
+				D05CA9F81B38D8570043CC1D /* Resources */,
+				D05CAA1A1B38D8570043CC1D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D05CAA0C1B38D8570043CC1D /* PBXTargetDependency */,
+			);
+			name = "Picker Demo WatchKit App";
+			productName = "Picker Demo WatchKit App";
+			productReference = D05CA9FA1B38D8570043CC1D /* Picker Demo WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D05CAA081B38D8570043CC1D /* Picker Demo WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05CAA171B38D8570043CC1D /* Build configuration list for PBXNativeTarget "Picker Demo WatchKit Extension" */;
+			buildPhases = (
+				D05CAA051B38D8570043CC1D /* Sources */,
+				D05CAA061B38D8570043CC1D /* Frameworks */,
+				D05CAA071B38D8570043CC1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Picker Demo WatchKit Extension";
+			productName = "Picker Demo WatchKit Extension";
+			productReference = D05CAA091B38D8570043CC1D /* Picker Demo WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D05CA9E01B38D8570043CC1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Sneaky Crab";
+				TargetAttributes = {
+					D05CA9E71B38D8570043CC1D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					D05CA9F91B38D8570043CC1D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					D05CAA081B38D8570043CC1D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = D05CA9E31B38D8570043CC1D /* Build configuration list for PBXProject "Picker Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D05CA9DF1B38D8570043CC1D;
+			productRefGroup = D05CA9E91B38D8570043CC1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D05CA9E71B38D8570043CC1D /* Picker Demo */,
+				D05CA9F91B38D8570043CC1D /* Picker Demo WatchKit App */,
+				D05CAA081B38D8570043CC1D /* Picker Demo WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D05CA9E61B38D8570043CC1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05CA9F61B38D8570043CC1D /* LaunchScreen.storyboard in Resources */,
+				D05CA9F31B38D8570043CC1D /* Assets.xcassets in Resources */,
+				D05CA9F11B38D8570043CC1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05CA9F81B38D8570043CC1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05CAA971B38D8BF0043CC1D /* picker5.png in Resources */,
+				D05CAAA11B38D8BF0043CC1D /* picker15.png in Resources */,
+				D05CAAB21B38D8BF0043CC1D /* picker32.png in Resources */,
+				D05CAAAB1B38D8BF0043CC1D /* picker25.png in Resources */,
+				D05CAA901B38D8BF0043CC1D /* frame4.png in Resources */,
+				D05CAADB1B38D8BF0043CC1D /* picker73.png in Resources */,
+				D05CAAC01B38D8BF0043CC1D /* picker46.png in Resources */,
+				D05CAAAA1B38D8BF0043CC1D /* picker24.png in Resources */,
+				D05CAAD01B38D8BF0043CC1D /* picker62.png in Resources */,
+				D05CAAC11B38D8BF0043CC1D /* picker47.png in Resources */,
+				D05CAAAF1B38D8BF0043CC1D /* picker29.png in Resources */,
+				D05CAAC21B38D8BF0043CC1D /* picker48.png in Resources */,
+				D05CAABC1B38D8BF0043CC1D /* picker42.png in Resources */,
+				D05CAABF1B38D8BF0043CC1D /* picker45.png in Resources */,
+				D05CAAED1B38D8BF0043CC1D /* picker91.png in Resources */,
+				D05CAA981B38D8BF0043CC1D /* picker6.png in Resources */,
+				D05CAAA71B38D8BF0043CC1D /* picker21.png in Resources */,
+				D05CAAC31B38D8BF0043CC1D /* picker49.png in Resources */,
+				D05CAACE1B38D8BF0043CC1D /* picker60.png in Resources */,
+				D05CAAF11B38D8BF0043CC1D /* picker95.png in Resources */,
+				D05CAA931B38D8BF0043CC1D /* picker1.png in Resources */,
+				D05CAAE51B38D8BF0043CC1D /* picker83.png in Resources */,
+				D05CAAB61B38D8BF0043CC1D /* picker36.png in Resources */,
+				D05CAADC1B38D8BF0043CC1D /* picker74.png in Resources */,
+				D05CAAA51B38D8BF0043CC1D /* picker19.png in Resources */,
+				D05CAA9A1B38D8BF0043CC1D /* picker8.png in Resources */,
+				D05CAAD11B38D8BF0043CC1D /* picker63.png in Resources */,
+				D05CAADA1B38D8BF0043CC1D /* picker72.png in Resources */,
+				D05CAADD1B38D8BF0043CC1D /* picker75.png in Resources */,
+				D05CAAA41B38D8BF0043CC1D /* picker18.png in Resources */,
+				D05CAAD21B38D8BF0043CC1D /* picker64.png in Resources */,
+				D05CAA9F1B38D8BF0043CC1D /* picker13.png in Resources */,
+				D05CAAF31B38D8BF0043CC1D /* picker97.png in Resources */,
+				D05CAA911B38D8BF0043CC1D /* frame5.png in Resources */,
+				D05CAAF01B38D8BF0043CC1D /* picker94.png in Resources */,
+				D05CAAEE1B38D8BF0043CC1D /* picker92.png in Resources */,
+				D05CAABB1B38D8BF0043CC1D /* picker41.png in Resources */,
+				D05CAAEC1B38D8BF0043CC1D /* picker90.png in Resources */,
+				D05CAAF51B38D8BF0043CC1D /* picker99.png in Resources */,
+				D05CAAB01B38D8BF0043CC1D /* picker30.png in Resources */,
+				D05CAAE01B38D8BF0043CC1D /* picker78.png in Resources */,
+				D05CAADF1B38D8BF0043CC1D /* picker77.png in Resources */,
+				D05CAABA1B38D8BF0043CC1D /* picker40.png in Resources */,
+				D05CAA951B38D8BF0043CC1D /* picker3.png in Resources */,
+				D05CAAD91B38D8BF0043CC1D /* picker71.png in Resources */,
+				D05CAACC1B38D8BF0043CC1D /* picker58.png in Resources */,
+				D05CAAA61B38D8BF0043CC1D /* picker20.png in Resources */,
+				D05CAAEB1B38D8BF0043CC1D /* picker89.png in Resources */,
+				D05CAAD81B38D8BF0043CC1D /* picker70.png in Resources */,
+				D05CAAD31B38D8BF0043CC1D /* picker65.png in Resources */,
+				D05CAAD41B38D8BF0043CC1D /* picker66.png in Resources */,
+				D05CAACF1B38D8BF0043CC1D /* picker61.png in Resources */,
+				D05CAAE71B38D8BF0043CC1D /* picker85.png in Resources */,
+				D05CAAAC1B38D8BF0043CC1D /* picker26.png in Resources */,
+				D05CAA9B1B38D8BF0043CC1D /* picker9.png in Resources */,
+				D05CAA961B38D8BF0043CC1D /* picker4.png in Resources */,
+				D05CAAE31B38D8BF0043CC1D /* picker81.png in Resources */,
+				D05CAACD1B38D8BF0043CC1D /* picker59.png in Resources */,
+				D05CAA8F1B38D8BF0043CC1D /* frame3.png in Resources */,
+				D05CAA8D1B38D8BF0043CC1D /* frame1.png in Resources */,
+				D05CAAE91B38D8BF0043CC1D /* picker87.png in Resources */,
+				D05CAACB1B38D8BF0043CC1D /* picker57.png in Resources */,
+				D05CAAC61B38D8BF0043CC1D /* picker52.png in Resources */,
+				D05CAAA81B38D8BF0043CC1D /* picker22.png in Resources */,
+				D05CAAB51B38D8BF0043CC1D /* picker35.png in Resources */,
+				D05CAAB81B38D8BF0043CC1D /* picker38.png in Resources */,
+				D05CAAC81B38D8BF0043CC1D /* picker54.png in Resources */,
+				D05CAAD51B38D8BF0043CC1D /* picker67.png in Resources */,
+				D05CAAC71B38D8BF0043CC1D /* picker53.png in Resources */,
+				D05CAA921B38D8BF0043CC1D /* picker0.png in Resources */,
+				D05CAA9E1B38D8BF0043CC1D /* picker12.png in Resources */,
+				D05CAACA1B38D8BF0043CC1D /* picker56.png in Resources */,
+				D05CAABD1B38D8BF0043CC1D /* picker43.png in Resources */,
+				D05CAAE21B38D8BF0043CC1D /* picker80.png in Resources */,
+				D05CAAAE1B38D8BF0043CC1D /* picker28.png in Resources */,
+				D05CAA031B38D8570043CC1D /* Assets.xcassets in Resources */,
+				D05CAA8E1B38D8BF0043CC1D /* frame2.png in Resources */,
+				D05CAADE1B38D8BF0043CC1D /* picker76.png in Resources */,
+				D05CAAD71B38D8BF0043CC1D /* picker69.png in Resources */,
+				D05CAAC51B38D8BF0043CC1D /* picker51.png in Resources */,
+				D05CAAA01B38D8BF0043CC1D /* picker14.png in Resources */,
+				D05CAAC41B38D8BF0043CC1D /* picker50.png in Resources */,
+				D05CAAB71B38D8BF0043CC1D /* picker37.png in Resources */,
+				D05CAA9D1B38D8BF0043CC1D /* picker11.png in Resources */,
+				D05CAA9C1B38D8BF0043CC1D /* picker10.png in Resources */,
+				D05CAAEA1B38D8BF0043CC1D /* picker88.png in Resources */,
+				D05CAAF21B38D8BF0043CC1D /* picker96.png in Resources */,
+				D05CAAC91B38D8BF0043CC1D /* picker55.png in Resources */,
+				D05CAAA21B38D8BF0043CC1D /* picker16.png in Resources */,
+				D05CAAE61B38D8BF0043CC1D /* picker84.png in Resources */,
+				D05CAAE81B38D8BF0043CC1D /* picker86.png in Resources */,
+				D05CAAB11B38D8BF0043CC1D /* picker31.png in Resources */,
+				D05CAAE41B38D8BF0043CC1D /* picker82.png in Resources */,
+				D05CAAF41B38D8BF0043CC1D /* picker98.png in Resources */,
+				D05CAAB31B38D8BF0043CC1D /* picker33.png in Resources */,
+				D05CAA941B38D8BF0043CC1D /* picker2.png in Resources */,
+				D05CAAE11B38D8BF0043CC1D /* picker79.png in Resources */,
+				D05CAAA31B38D8BF0043CC1D /* picker17.png in Resources */,
+				D05CAABE1B38D8BF0043CC1D /* picker44.png in Resources */,
+				D05CAAA91B38D8BF0043CC1D /* picker23.png in Resources */,
+				D05CAAEF1B38D8BF0043CC1D /* picker93.png in Resources */,
+				D05CAAB41B38D8BF0043CC1D /* picker34.png in Resources */,
+				D05CAAD61B38D8BF0043CC1D /* picker68.png in Resources */,
+				D05CAAF61B38D8BF0043CC1D /* picker100.png in Resources */,
+				D05CAAB91B38D8BF0043CC1D /* picker39.png in Resources */,
+				D05CAAAD1B38D8BF0043CC1D /* picker27.png in Resources */,
+				D05CAA991B38D8BF0043CC1D /* picker7.png in Resources */,
+				D05CAA011B38D8570043CC1D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05CAA071B38D8570043CC1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05CAA131B38D8570043CC1D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D05CA9E41B38D8570043CC1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05CA9EE1B38D8570043CC1D /* ViewController.swift in Sources */,
+				D05CA9EC1B38D8570043CC1D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05CAA051B38D8570043CC1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05CAAFA1B38D8DF0043CC1D /* ListPickerInterfaceController.swift in Sources */,
+				D05CAA111B38D8570043CC1D /* ExtensionDelegate.swift in Sources */,
+				D05CAAFC1B38D8DF0043CC1D /* StackPickerInterfaceController.swift in Sources */,
+				D05CAAFB1B38D8DF0043CC1D /* SequencePickerInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D05CA9FD1B38D8570043CC1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05CA9F91B38D8570043CC1D /* Picker Demo WatchKit App */;
+			targetProxy = D05CA9FC1B38D8570043CC1D /* PBXContainerItemProxy */;
+		};
+		D05CAA0C1B38D8570043CC1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05CAA081B38D8570043CC1D /* Picker Demo WatchKit Extension */;
+			targetProxy = D05CAA0B1B38D8570043CC1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D05CA9EF1B38D8570043CC1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05CA9F01B38D8570043CC1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D05CA9F41B38D8570043CC1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05CA9F51B38D8570043CC1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D05CA9FF1B38D8570043CC1D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05CAA001B38D8570043CC1D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D05CAA151B38D8570043CC1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D05CAA161B38D8570043CC1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D05CAA181B38D8570043CC1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Picker Demo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sneakycrab.Picker-Demo.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D05CAA191B38D8570043CC1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Picker Demo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sneakycrab.Picker-Demo.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		D05CAA1C1B38D8570043CC1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Picker_Demo_WatchKit_Extension;
+				INFOPLIST_FILE = "Picker Demo WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sneakycrab.Picker-Demo.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D05CAA1D1B38D8570043CC1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Picker_Demo_WatchKit_Extension;
+				INFOPLIST_FILE = "Picker Demo WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sneakycrab.Picker-Demo.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		D05CAA201B38D8570043CC1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Picker Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sneakycrab.Picker-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D05CAA211B38D8570043CC1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Picker Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sneakycrab.Picker-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D05CA9E31B38D8570043CC1D /* Build configuration list for PBXProject "Picker Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05CAA151B38D8570043CC1D /* Debug */,
+				D05CAA161B38D8570043CC1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05CAA171B38D8570043CC1D /* Build configuration list for PBXNativeTarget "Picker Demo WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05CAA181B38D8570043CC1D /* Debug */,
+				D05CAA191B38D8570043CC1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D05CAA1B1B38D8570043CC1D /* Build configuration list for PBXNativeTarget "Picker Demo WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05CAA1C1B38D8570043CC1D /* Debug */,
+				D05CAA1D1B38D8570043CC1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D05CAA1F1B38D8570043CC1D /* Build configuration list for PBXNativeTarget "Picker Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05CAA201B38D8570043CC1D /* Debug */,
+				D05CAA211B38D8570043CC1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D05CA9E01B38D8570043CC1D /* Project object */;
+}
