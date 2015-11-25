@@ -24,7 +24,7 @@ class StackPickerInterfaceController : WKInterfaceController {
             return pickerItem
         }
         itemPicker.setItems(pickerItems)
-        itemPicker.focusForCrownInput()
+        itemPicker.focus()
     }
 
     @IBAction func pickerSelectedItemChanged(value: Int) {
